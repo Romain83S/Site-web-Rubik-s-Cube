@@ -1,6 +1,8 @@
 h1 {
     font-family: 'Rubik', sans-serif;
-    background-color: rgb(255, 140, 0);
+    background: #E44D26;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F16529, #E44D26);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F16529, #E44D26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
     font-size: 4em;
 }
